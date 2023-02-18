@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>F2 Contest 2</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head> 
+
+<body>
+  <form id="LibForm">
+   <h1>Library Management Sytsem</h1>
+
+    <div class=""><label>Book Name</label>
+    <input type="text" id="bookName" ></div>
+
+   <div class=""> <label>Issued To</label>
+    <input type="text" id="IssuedTo" ></div>
+
+
+    <br><br>
+
+    <button type="submit" id="issueBook">Issue Book</button>
+
+   
+
+  </form>
+
+  <table id="Table" >
+   
+    <thead>
+      <tr>
+        <td style="width: 10%;">ID</td>
+        <td style="width: 22.5%;">Book Name</td>
+        <td style="width: 22.5%;">Issued To</td>
+        <td style="width: 22.5%;">Issue Date and Time</td>
+        <td style="width: 22.5%;">Status</td>
+      </tr>
+    </thead>
+    <tbody id="List"></tbody>
+   
+  </table>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
